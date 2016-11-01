@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/ride"
+            android:title="Book Your Ride" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/rides"
+            android:title="Your Rides" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/money"
+            android:title="Taxi Money" />
+    </group>
+
+    <item android:title="Offers">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/offers"
+                android:title="Free Rides" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/support"
+                android:title="Support" />
+        </menu>
+    </item>
+
+</menu>

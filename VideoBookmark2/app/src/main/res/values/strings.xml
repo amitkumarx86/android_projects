@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VBooky</string>
+    <string name="submit">submit</string>
+    <string name="add_topic">add topic...</string>
+    <string name="imagepath">image</string>
+    <color name="listBorder">#21413939</color>
+</resources>
